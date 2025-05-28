@@ -209,6 +209,16 @@ body{
 input:focus{
     outline: 1px solid #394150;
 }
+.author-info {
+        font-size: 14px;
+        text-align: center;
+        margin: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
 
 @media (max-width: 640px) {
    .container{
