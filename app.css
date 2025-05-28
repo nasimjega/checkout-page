@@ -210,7 +210,7 @@ input:focus{
     outline: 1px solid #394150;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 640px) {
    .container{
     flex-direction: column;
    }
