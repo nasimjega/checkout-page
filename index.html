@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout-Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <div>
+    <main class="header">
+        <h1>Checkout</h1>
+        <p class="item-count">3 ITEMS </p>
+    </main>
+    <section class="container">
+        <div class="grey">
+            <div class="cont">
+                <img src="/Project2/resources/Gold@2x.png" alt="iPhone 12 Pro" class="prod-img">
+                <div class="text">
+                        <div>
+                        <h4>iPhone 12 Pro</h4>
+                        <div class="item-p">
+                            <p>Golden</p>
+                            <p>X 1</p>
+                        </div>
+                        </div>
+                    <div class="prod-price">
+                        <h4>$999.00</h4>
+                        <p class="X"><img src="/Project2/resources/close-icon.svg" alt="Removeitem"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="/Project2/resources/Apple-watchx2.png" alt="Apple-watch"  class="prod-img">
+                <div class="text">
+                    <div>
+                        <h4>Apple Watch</h4>
+                        <div class="item-p">
+                            <p>Blue</p>
+                            <p>X 1</p>
+                        </div>
+                    </div>
+                    <div class="prod-price">
+                        <h4>$399.00</h4>
+                        <p class="X"><img src="/Project2/resources/close-icon.svg" alt="Removeitem"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="cont">
+                <img src="/Project2/resources/iMac.png" alt="iMac"  class="prod-img">
+            <div class="text">
+                <div>
+                    <h4>iMac</h4>
+                    <div class="item-p">
+                        <p>Green</p>
+                        <p>X 1</p>
+                    </div>
+                </div>
+                <div class="prod-price">
+                    <h4>$1199.00</h4>
+                    <p class="X"><img src="/Project2/resources/close-icon.svg" alt="Removeitem"></p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="c-sec">
+            <form action="" class="cpn-form">
+               <input type="text" class="coup" placeholder="Enter coupon code">
+               </form>
+                <button type="button" class="butt">Apply Coupon</button>
+        </div>
+        <div class="t-sec">
+            <div class="sub">
+                <h4>Sub total</h4>
+                <h4>Tax</h4>
+                <div class="T"><h4>Total</h4></div>
+            </div>
+            <div class="t-price">
+                 <h4>$2597.00</h4>
+                 <h4>$623.28</h4>
+                 <div class="T"><h4>$3220.28</h4></div>
+            </div>
+        </div>
+     
+    </div>
+        <div class="white">
+            <h2 id="contI">Contact Information</h2>
+          <form action="" class="C-form">
+            <label for="name" id="name" class="label"> First & Last name</label>
+            <input type="text" id="name" placeholder="Enter First & Last name" class="conta">
+            <label for="email" id="email" class="label">Email Address</label>
+            <input type="email" placeholder="Enter email address" id="email" class="conta">
+         </form>
+        <div class="country-S">
+            <div id="countt">
+                <label for="pcode" id="coun">Country</label>
+                <select name="country" class="coun">
+                    <option value="none">Select Country</option>
+                    <option value="Finland">Finland</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="China">China</option>
+                    <option value="Egypt">Egypt</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label for="pcode" id="pnum">Postal code</label>
+                <input type="number" id="pnum" class="pnum" placeholder="00270">
+            </div>
+        </div>
+        <button id="cbutt">Continue</button>
+        </div>
+        
+    </section>
+ </div>
+</body>
+</html>
